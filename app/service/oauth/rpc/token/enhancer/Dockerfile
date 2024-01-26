@@ -11,7 +11,7 @@ ENV GO111MODULE=on \
 WORKDIR /server
 
 # 将代码复制到容器中
-COPY ./gohu-oauth-rpc-token-enhancer /server/gohu-oauth-rpc-token-enhancer
+#COPY ./gohu-oauth-rpc-token-enhancer /server/gohu-oauth-rpc-token-enhancer
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 

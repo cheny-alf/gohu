@@ -12,7 +12,7 @@ WORKDIR /server
 
 # 将代码复制到容器中
 #COPY etc /server/etc
-COPY ./gohu-mq-asynq-scheduler /server/gohu-mq-asynq-scheduler
+#COPY ./gohu-mq-asynq-scheduler /server/gohu-mq-asynq-scheduler
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 

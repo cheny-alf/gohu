@@ -12,7 +12,7 @@ WORKDIR /server
 
 # 将代码复制到容器中
 #COPY etc /server/etc
-COPY ./gohu-mq-asynq-processor /server/gohu-mq-asynq-processor
+#COPY ./gohu-mq-asynq-processor /server/gohu-mq-asynq-processor
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 

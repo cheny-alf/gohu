@@ -34,7 +34,7 @@ do
   echo >&3
 done
 
-cd /www/site/"$PROJECT_NAME" || exit
+cd ./ || exit
 
 remain_build=${#docker_names[@]}
 

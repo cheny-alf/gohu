@@ -11,7 +11,7 @@ WORKDIR /server
 
 # 将代码复制到容器中
 #COPY etc /server/etc
-COPY ./gohu-comment-rpc-info /server/gohu-comment-rpc-info
+#COPY ./gohu-comment-rpc-info /server/gohu-comment-rpc-info
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 

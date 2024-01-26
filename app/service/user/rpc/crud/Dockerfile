@@ -11,7 +11,7 @@ WORKDIR /server
 
 # 将代码复制到容器中
 #COPY etc /server/etc
-COPY ./gohu-user-rpc-crud /server/gohu-user-rpc-crud
+#COPY ./gohu-user-rpc-crud /server/gohu-user-rpc-crud
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 

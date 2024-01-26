@@ -11,7 +11,7 @@ WORKDIR /server
 
 # 将代码复制到容器中
 #COPY etc /server/etc
-COPY ./gohu-notification-rpc-crud /server/gohu-notification-rpc-crud
+#COPY ./gohu-notification-rpc-crud /server/gohu-notification-rpc-crud
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 
